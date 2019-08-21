@@ -18,6 +18,8 @@ Challenges:
   * Exploration: Must explore to find new states of the environment
   * Exploitation: Use a learned policy to choose the optmized action (max reward/value)
 2. Whole problem vs. subproblems
+  * Whole: Prepare breakfast
+  * subproblem: Pour milk in a way that doesn't overflow, etc.
 
 Four elements of RL:
 1. Policy: Agent's way of behaving at a given time
@@ -39,9 +41,12 @@ V(s) <- V(s) + alpha [V(s') - V(s)]
 
 In words: Value of earlier state is updated by adding a multiple of the difference of value of new state and value of old state
 
+If alpha is reduced properly over time, the value function converges for any fixed opponent.
+If alpha is not reduced all the way to zero, it plays well against players that slowly change their way of playing
+
 ## Impressions (인상깊은점)
 * RL is another category in machine learning, it is not categorized within supervised or unsupervised learning
-* RL actively uses the information in its state/environment, where evolutionary/genetic algorithsm do not
+* RL actively uses the information in its state/environment, where evolutionary/genetic algorithms do not
 * RL tries to mimic the way people learn; people act to achieve a goal, which solves subproblems on the way (goal: Prep breakfast vs. pour milk, cereal, etc.)
 
 
