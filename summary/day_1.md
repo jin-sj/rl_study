@@ -1,6 +1,6 @@
 # Day 1, pages 1-15
 
-## Summary
+## Summary (요약)
 Outlines the basic characteristics, formulation and challenges in RL.
 Main characteristics are that:
 1. RL is a closed-loop system (system involving feedback); system's actions influence later inputs
@@ -39,13 +39,13 @@ V(s) <- V(s) + alpha [V(s') - V(s)]
 
 In words: Value of earlier state is updated by adding a multiple of the difference of value of new state and value of old state
 
-## Impressions
+## Impressions (인상깊은점)
 * RL is another category in machine learning, it is not categorized within supervised or unsupervised learning
 * RL actively uses the information in its state/environment, where evolutionary/genetic algorithsm do not
 * RL tries to mimic the way people learn; people act to achieve a goal, which solves subproblems on the way (goal: Prep breakfast vs. pour milk, cereal, etc.)
 
 
-## Questions
+## Questions (의문점)
 Can RL be used in common DL problems, such as computer vision? How would a CV problem be formulated in RL?
 * Agent?
 * Sensation?
