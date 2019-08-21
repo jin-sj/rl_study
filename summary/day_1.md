@@ -28,12 +28,12 @@ Four elements of RL:
 4. Model of environment: Mimic the behavior of the environment, or more generally, something that allows inferences to be made about how the environment will behave
   *  Models are used for planning; decide on the course of actions by considering possible future situations
 
-Temporal-difference learning: Earlier state is updated after taking a greedy step
-V(s) <- V(s) + \alpha [V(s') - V(s)]
-s: state _before_ greedy move
-s': state _after_ greedy move
-\alpha: small positive fraction; step-size parameter that influences the rate of learning
-V(s): Value of state s
+Temporal-difference learning: Earlier state is updated after taking a greedy step \\
+V(s) <- V(s) + \alpha [V(s') - V(s)] \\
+* s: state _before_ greedy move
+* s': state _after_ greedy move
+* \alpha: small positive fraction; step-size parameter that influences the rate of learning
+* V(s): Value of state s
 
 In words: Value of earlier state is updated by adding a multiple of the difference of value of new state and value of old state
 
