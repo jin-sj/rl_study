@@ -18,8 +18,9 @@ Actor-critic: User of temporal-difference in trial-and-error learning
 
 
 ## Impressions (인상깊은점)
-Many algorithms in RL have been inspired by nature (how animals learn, etc.)
-Lots of collaboration led to advancement in the field
+Many algorithms in RL have been inspired by nature (how animals learn, etc.) <br>
+Lots of collaboration led to advancement in the field. <br>
+Historical info would be useful when coming up with new ideas, and understanding the flow of thought in the field.
 
 
 ## Questions (의문점)
