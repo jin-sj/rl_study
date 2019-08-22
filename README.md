@@ -9,7 +9,7 @@ Comprised of: Reading material, note-taking and summary
 - [x] 0일차: notation 외우기
 - [x] 1일차 : 1~15 page
 - [x] 2일차 : 16~26 page
-- [] 3일차: 27~37 page
+- [ ] 3일차: 27~37 page
 - [] 4일차 : 38~45 page
 - [] 5일차 : 46~52 page
 - [] 6일차 : 53~60 page
