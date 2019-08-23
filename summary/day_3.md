@@ -2,7 +2,7 @@
 
 ## Summary (요약)
 RL uses evaluative feedback: how good the action taken is, but not whether it is the best or the worst action possible <br>
-Supervised users instructive feedback: indicates the correct action to take, independently of the action actually taken <br>
+Supervised uses instructive feedback: indicates the correct action to take, independently of the action actually taken <br>
 
 N-bandit problem: A simplified setting (non-associative) to explore RL <br>
 An n-bandit problem is:
@@ -10,13 +10,14 @@ An n-bandit problem is:
 * Each action yields a numerical award from a stationary distribution, depending on the action
 * Need to maximized the reward, over some time period (example, 2000 steps)
 
-Many ways to select actions: <br>
-Greedy: Choose action with highest value <br>
-Exploration: Choose an action randomly, independent of the value <br>
-e-greedy: Choose greedy, except for some probability e, where a random action is done <br>
-  * Tends to perform better than pure greedy, because it is able to update uncertain values, and may find better values
-  * Depends highly on the assignment; if high variance, e-greedy > greedy. if 0 variance, e-greedy < greedy
-  * Even for deterministic * stationary targets, e-greedy would be better
+Many ways to select actions:
+  * Greedy: Choose action with highest value
+  * Exploration: Choose an action randomly, independent of the value <br>
+  * e-greedy: Choose greedy, except for some probability e, where a random action is done <br>
+    * Tends to perform better than pure greedy, because it is able to update uncertain values, and may find better values
+    * Depends highly on the assignment; if high variance, e-greedy > greedy. if 0 variance, e-greedy < greedy
+    * Even for deterministic * stationary targets, e-greedy would be better
+    * e may be reduced to choose optimal policy
 
 Math: <br>
 Qt(a): Estimated value at time t <br>
