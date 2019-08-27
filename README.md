@@ -11,8 +11,8 @@ Comprised of: Reading material, note-taking and summary
 - [x] 2일차 : 16~26 page
 - [x] 3일차: 27~37 page
 - [x] 4일차 : 38~45 page
-- [ ] 5일차 : 46~52 page
-- [ ] 6일차 : 53~60 page
+- [x] 5일차 : 46~52 page
+- [x] 6일차 : 53~60 page
 - [ ] 7일차 : 61~69 page
 - [ ] 8일차 : 70~79 page
 - [ ] 9일차 : 80~88 page
