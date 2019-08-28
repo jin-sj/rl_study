@@ -39,6 +39,8 @@ Transition Graphs are useful in summarizing the dynamics of a finite MDP
 
 
 ## Impressions (인상깊은점)
+A Markov state emcompasses all relevant information of a system about the complete sequence of positions that led to it.
 
 
 ## Questions (의문점)
+Can non-Markovian states be reformulated such that they become close approximation of a MDP?
