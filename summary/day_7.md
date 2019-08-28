@@ -19,7 +19,7 @@ Markov Property:
   * Normally requires more than immediate sesnses, but never more than complete hsitory of all past sensations
 
 Formal definition: <br>
-p(s', r | s, a) = Pr {R_(t+1) , s_(t+1)=s' | S_t, A_t} <br>  (a)
+p(s', r | s, a) = Pr {R_(t+1) , s_(t+1)=s' | S_t, A_t} --- (a) <br>
 
 ### Markove Decision Process
   * RL's that satisfy the markov property
