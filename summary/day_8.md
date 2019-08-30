@@ -7,16 +7,15 @@
 
 ### Policy, pi
   * Mapping from each state, s in S, a action in A, to the probability, pi(a|s), of taking action 'a' when in state 's'
-![Policy][]
 
 ### Value function: v_pi (s)
   * Value if state s under policy pi
   * Expected return when starting in s and following pi
-![Value-function][https://github.com/jin-sj/rl_study/blob/master/assets/value_function.png]
+![Value-function](https://github.com/jin-sj/rl_study/blob/master/assets/value_function.png)
 
 ### Action-value function: q_pi(s, a)
   * Value of taking action a in state s, under policy pi
-![Action-value Function][https://github.com/jin-sj/rl_study/blob/master/assets/action-value_function.png]
+![Action-value Function](https://github.com/jin-sj/rl_study/blob/master/assets/action-value_function.png)
 
 ### Monte-Carlo:
   * Estimation method through averaging over many random samples
@@ -26,7 +25,7 @@
     * Compute the probability: pi(a|s)p(s',r|s,a)
     * Weight the quantity in brackets by the probability
     * Then sum over all possibilities to get an expected value
-![Bellman equation for value function][https://github.com/jin-sj/rl_study/blob/master/assets/bellman_eq_for_value_function.png]
+![Bellman equation for value function](https://github.com/jin-sj/rl_study/blob/master/assets/bellman_eq_for_value_function.png)
 
 ### Optimal value functions
 * pi >= pi' if and only if v_pi (s) >= v_pi' (s) for all s in S
@@ -34,19 +33,19 @@
 
 Optimal state-value function
 * Defined as:
-![Optimal state-value function][https://github.com/jin-sj/rl_study/blob/master/assets/optimal_state_value_function.png]
+![Optimal state-value function](https://github.com/jin-sj/rl_study/blob/master/assets/optimal_state_value_function.png)
 
 Optimal action-value function:
 * Defined as:
-![Optimal action-value function][https://github.com/jin-sj/rl_study/blob/master/assets/optimal_action_value_function.png]
+![Optimal action-value function](https://github.com/jin-sj/rl_study/blob/master/assets/optimal_action_value_function.png)
 * In terms of v_star:
-![Optimal action-value function in terms of state-value function][https://github.com/jin-sj/rl_study/blob/master/assets/optimal_action_value_function2.png]
+![Optimal action-value function in terms of state-value function](https://github.com/jin-sj/rl_study/blob/master/assets/optimal_action_value_function2.png)
 
 ### Bellman Optimalilty function
 * Value function
   * Any policy that is greedy w/ respect to optimal evalution function v_star is an optimal policy
   * One-step-ahead serach
-![Bellman Optimality Value function][https://github.com/jin-sj/rl_study/blob/master/assets/bellman_optimal_value_function.png]
+![Bellman Optimality Value function](https://github.com/jin-sj/rl_study/blob/master/assets/bellman_optimal_value_function.png)
 
 * Action-value function
   * Makes it easier for choosing optimal actions
@@ -71,4 +70,4 @@ Greedy choices on optimal value-state or action-value functions are optimal poli
 
 ## Questions (의문점)
 How does the math go from line 2 to 3?
-![Bellman equation for value function][https://github.com/jin-sj/rl_study/blob/master/assets/bellman_eq_for_value_function.png]
+![Bellman equation for value function](https://github.com/jin-sj/rl_study/blob/master/assets/bellman_eq_for_value_function.png)
