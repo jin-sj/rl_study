@@ -2,7 +2,7 @@
 
 ## Summary (요약)
 State representation, S_t is a short hand for S_t,i and for other variables (A_t,i , R_t,i , etc.) <br>
-Unify discrete & continuous states by using 'absoribing state': A state that transitions to itself & reward = 0 <br>
+Unify discrete & continuous states by using 'absorbing state': A state that transitions to itself & reward = 0 <br>
 Gt = sum fromk=0 to T-t-1 of gamma^k R_(t+k+1)  <br>
 works for T=infinity or gamma = 1, but not both
 
@@ -16,7 +16,7 @@ State: information avaiable to the agent
 
 Markov Property:
   * A state signal that summarizes past senses compactly, yet in a way that all relevant info is retained
-  * Normally requires more than immediate sesnses, but never more than complete hsitory of all past sensations
+  * Normally requires more than immediate senses, but never more than complete history of all past sensations
 
 Formal definition: <br>
 p(s', r | s, a) = Pr {R_(t+1) , s_(t+1)=s' | S_t, A_t} --- (a) <br>
@@ -33,7 +33,7 @@ Using the formal definition, (a), we can also define:
 Transition Graphs are useful in summarizing the dynamics of a finite MDP
   * State node: Each possible state, big open circle
   * action node: Each possible action, small black circle
-    * Transision properties leaving an action node always sums to 1.
+    * Transition properties leaving an action node always sums to 1.
 
 ![Transition Graph](https://github.com/jin-sj/rl_study/blob/master/assets/transition_graph.png)
 
